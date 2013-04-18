@@ -8,7 +8,7 @@
 #
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
-groups:
+groups:&3gast
   Default:
     default: true
     permissions:
@@ -22,7 +22,7 @@ groups:
       prefix: '&e'
       build: false
       suffix: ''
-  Builder:
+  Builder:&3buil&9der
     default: false
     permissions: []
     inheritance:
@@ -33,7 +33,7 @@ groups:
       prefix: '&2'
       build: true
       suffix: ''
-  Moderator:
+  Moderator:&2mode&7rator
     default: false
     permissions: []
     inheritance:
@@ -47,7 +47,7 @@ groups:
       prefix: '&5'
       build: true
       suffix: ''
-  Admin:
+  Admin:&4ad&3mi&2n
     default: false
     permissions: []
     inheritance:
@@ -61,7 +61,7 @@ groups:
       prefix: '&c'
       build: true
       suffix: ''
-  Owner:
+  Owner:&4own&3er
     default: false
     permissions:
     - '*'
